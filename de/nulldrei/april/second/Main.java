@@ -36,12 +36,11 @@ public class Main {
         try {
             System.out.println(1 / 0);
         } catch (ArithmeticException e) {
-            System.err.println("Fick dich!");
+            System.err.println("Du du lass das durch 0 soll man nicht teilen!");
             FileOutputStream fos = new FileOutputStream("errors.log", true);
             PrintWriter pw = new PrintWriter(fos);
-            pw.println(LocalDateTime.now() + " Error: " + e.getMessage());
+            pw.println(LocalDateTime.now() + " Error: " + e.toString());
             pw.close();
-
         }
     }
 
