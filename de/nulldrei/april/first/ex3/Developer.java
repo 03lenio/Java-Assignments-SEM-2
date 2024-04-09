@@ -6,6 +6,7 @@ public class Developer implements IPayableEmployee {
     private double bonusSalary;
 
     public Developer(double baseSalary, double bonusSalary) {
+        super();
         this.baseSalary = baseSalary;
         this.bonusSalary = bonusSalary;
     }

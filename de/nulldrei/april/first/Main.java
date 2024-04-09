@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         //Exercise 1
         System.out.println("==========What are the perfect numbers from 10-100?=========");
         for (int i = 10; i<=100; i++) {
@@ -50,5 +50,6 @@ public class Main {
         }
         return lastSum == toCheck;
     }
+     */
 
 }
