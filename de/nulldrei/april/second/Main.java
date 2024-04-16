@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+   /* public static void main(String[] args) throws IOException {
         //Ex.1
         System.out.println("I got: " + cubic(4));
         writeName();
@@ -44,5 +44,5 @@ public class Main {
         }
     }
 
-
+    */
 }
