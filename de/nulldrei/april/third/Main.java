@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 
 public class Main {
 
+    /*
     public static void main(String[] args) throws IOException {
         //Ex. 1
         System.out.println(palindrome("OTTO"));
@@ -20,6 +21,7 @@ public class Main {
         //Ex. 3
         errorGenerator();
     }
+    */
 
     public static boolean palindrome(String word) {
         if(word.length() == 1 || word.isEmpty())
