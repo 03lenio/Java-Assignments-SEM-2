@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
-
+    /*
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         //Ex. 1
         FileOutputStream fileOutputStream = new FileOutputStream("04-23-2024.txt", true);
@@ -76,5 +76,5 @@ public class Main {
         bufferedWriter.flush();
         bufferedWriter.close();
     }
-
+    */
 }
