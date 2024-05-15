@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 public class Main {
 
+    /*
     public static void main(String[] args) {
         /*Ex. 1
         LinkedList<String> cringeLinkedList = new LinkedList<String >();
@@ -52,7 +53,6 @@ public class Main {
         }
         System.out.println(firstOrder.calculatePrice());
         System.out.println(secondOrder.calculatePrice());
-        */
         SinglyLinkedList linkedList = new SinglyLinkedList();
         linkedList.add("Billie Jean");
         linkedList.add("Is not my girl");
@@ -67,6 +67,6 @@ public class Main {
         System.out.println(linkedList.contains("Billie Jean"));
         System.out.println(linkedList.contains("She's just a girl"));
     }
-
+    */
 }
 
