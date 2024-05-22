@@ -3,9 +3,9 @@ package de.nulldrei.may.third;
 import java.util.*;
 
 public class Main {
-
+    /*
     public static void main(String[] args) {
-        /* Ex 1
+        // Ex 1
         NoDuplicateStringList noDuplicateStringList = new NoDuplicateStringList();
         noDuplicateStringList.add("s");
         noDuplicateStringList.add("s");
@@ -13,8 +13,8 @@ public class Main {
         noDuplicateStringList.add("g");
         noDuplicateStringList.add("h");
         noDuplicateStringList.printAllElements();
-         */
-        /* Ex. 2
+
+        // Ex. 2
         LinkedList<Integer> queue = new LinkedList<Integer>();
         Random random = new Random();
         for(int i=0; i<10; i++) {
@@ -23,10 +23,11 @@ public class Main {
         while (!queue.isEmpty()) {
             System.out.println(queue.pop() * random.nextInt(1, 9));
         }
-         */
+
         System.out.println(checkBD("bddbdbbbd"));
         System.out.println(checkParenthesis("{}{}{{}{}}{}{(({})){})}{}{}"));
     }
+
 
     public static boolean checkBD(String s) {
         Stack<Character> stack = new Stack<>();
@@ -63,5 +64,5 @@ public class Main {
         return stack.isEmpty();
     }
 
-
+    */
 }
